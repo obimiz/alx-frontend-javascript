@@ -1,4 +1,6 @@
-export default function getFullResponseFromAPI (boolean) {
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
+export default function (boolean) {
 	return new Promise((resolve, reject) => {
 		const object = {
 			status: 200,
