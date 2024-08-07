@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable */
-export default function function handleResponseFromAPI(promise){
+export default function handleResponseFromAPI(promise){
 	return promise
 	.then(() => ({status: 200, body: 'success'}));
 	.catch(() => new Error())
