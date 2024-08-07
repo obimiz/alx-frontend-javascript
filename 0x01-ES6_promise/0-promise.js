@@ -1,5 +1,12 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable */
 export default function function getResponseFromAPI() {
-	return new Promise(() => {});
+	const success = true;
+	return new Promise ((resolve, reject) => {
+		if success{
+			resolve():
+		}	else{
+				reject();
+		}
+	})
 }
